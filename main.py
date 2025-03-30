@@ -1,13 +1,5 @@
 def czy_palindrom(s):
-    """
-    Funkcja sprawdza, czy podany wyraz jest palindromem.
 
-    Argumenty:
-    s (str): Ciąg znaków do sprawdzenia
-
-    Zwraca:
-    bool: True, jeśli wyraz jest palindromem, False w przeciwnym wypadku.
-    """
     s = s.lower()
     return s == s[::-1]
 
