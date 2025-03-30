@@ -1,10 +1,10 @@
-def czy_palindrom(s):
+def is_palindrome(s):
 
     s = s.lower()
     return s == s[::-1]
 
 
-print(czy_palindrom("kajak"))
-print(czy_palindrom("potop"))
-print(czy_palindrom("pottop"))
-print(czy_palindrom("Python"))
+print(is_palindrome("kajak"))
+print(is_palindrome("potop"))
+print(is_palindrome("pottop"))
+print(is_palindrome("Python"))
